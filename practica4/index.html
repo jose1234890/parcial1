@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Jose Rochin 601</title>
+</head>
+<body>
+
+	<h1>Formularios</h1>
+	<h2> De Jose Rochin 601</h2>
+	<p>Los formularios son campos de texto que permiten capturar informacion por parte del usuario que permite a nuestro sitio interactuar.</p>
+
+<hr>
+<h3>Este es un ejemplo de formularios:</h3>
+
+<form>
+	<label>Nombre:</label>
+	<input type="text" name="nombre"maxlength="100" placeholder="Nombre completo" required size="10">
+	<br>
+<label>Correo electronico</label>
+<input type="email" name="Correo"placeholder="Escribe el correo"required>
+
+<br>
+
+<label>Contraseña:</label>
+<input type="password" name="Pass"placeholder="Minimo 8 caracteres "minlength="8"required>
+<br>
+<label>Fecha de nacimiento</label>
+<input type="date" name="Fecha" required>
+
+<br>
+
+<label>Nacionalidad</label>
+<select>
+	<option selected disabled>Selecciona un pais</option>
+	<option>Mexico</option>
+	<option>USA</option>
+	<option>China</option>
+	<option>Hong Kong</option>
+	<option>Rusia</option>
+	<option>Japon</option>
+	<option>Peru</option>
+	<option>Argentina</option>
+	<option>Brasil</option>
+</select>
+
+<br>
+
+<label>Escoge Tus Pasatiempos</label><br>
+<input type="checkbox" name="Pasatiempos">Leer <br> 
+<input type="checkbox" name="Pasatiempos">Escuchar Musica <br>
+<input type="checkbox" name="Pasatiempos">Carpinteria <br>
+<input type="checkbox" name="Pasatiempos">Mecanica de modificacion  <br>
+<input type="checkbox" name="Pasatiempos">Call of guevuti <br>
+<input type="checkbox" name="Pasatiempos">Origami <br>
+<input type="checkbox" name="Pasatiempos">MMA <br>
+<input type="checkbox" name="Pasatiempos">Pintar mi libro de drangon ball <br>	
+
+<br>
+<label>Genero:</label>
+<input type="radio" name="sexo">Hombre
+<input type="radio" name="sexo">Mujer
+<input type="radio" name="sexo">Prefiero no decirlo
+
+<br>
+<label>Sube tu Foto</label>
+<input type="file" name="archivo"required>
+
+<br>
+<label>Escribe tu mensaje:</label>
+<br>
+<textarea placeholder="Deja tu mensaje"></textarea>
+
+	<br>
+	<br>
+	<input type="submit" name="boton"value="Contacta al 601">
+<input type="reset" name="borrae"value="borrar campo">
+
+<a href="../index.html">volver</a>
+
+</form>
+
+</body>
+</html>
